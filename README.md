@@ -1,7 +1,7 @@
 # Hello World!
 
 ### I'm Ali Sariyer. IT Manager, Programmer, Web Developer and Designer.
-##### I'm very curious on web development and web application.
+#### I'm very curious on web development and web application.
 
 - 👋 Hi, I’m @alisariyer
 - 👀 I’m interested in **web development, python and web applications**.
