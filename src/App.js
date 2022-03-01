@@ -11,7 +11,7 @@ export default function App() {
         <Hero />
         <Projects />
       </main>
-      <footer>2022</footer>
+      <footer className="light"><small>Made by Ali Sariyer | Mars 2022</small></footer>
     </>
   );
 }

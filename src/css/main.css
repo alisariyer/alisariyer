@@ -86,6 +86,11 @@
 /* project section styling */
 
 .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: var(--padding);
     padding-inline: var(--padding);
 }
 
@@ -100,8 +105,7 @@
     border-radius: calc(var(--rem));
     padding: var(--padding);
     overflow: hidden;
-    z-index: -9999;
-    margin-bottom: var(--padding);
+    z-index: 0;
 }
 
 .card > .dot-container {
@@ -110,7 +114,7 @@
     left: 0;
     bottom: 0;
     transform: translate(-50%, 50%) rotate(45deg);
-    z-index: -5;
+    z-index: -1;
 }
 
 .card-img--container {
@@ -120,11 +124,6 @@
     overflow: hidden;
     border-radius: var(--rem);
     margin-bottom: var(--rem); 
-}
-
-.card-img {
-    height: calc(var(--rem) * 6);
-    margin-bottom: var(--rem);
 }
 
 .dots-triangle {
@@ -179,11 +178,21 @@
 }
 
 .btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
     width: calc(var(--rem) * 12);
     height: calc(var(--rem) * 4);
     font-size: calc(var(--rem) * 1.8);
+    letter-spacing: 0;
     border: none;
     border-radius: calc(var(--rem) /2);
+    padding-block: calc(var(--rem));
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow:5px 5px 0px 0 hsl( var(--clr-white) / .1);
 }
 
 .btn-github {
@@ -194,4 +203,18 @@
 .btn-live {
     background-color: hsl( var(--clr-white));
     color: hsl( var(--clr-dark));
+}
+
+/* footer styling */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    height: calc(var(--rem) * 3);
+    background-color: hsl( var(--clr-blue));
+    color:hsl( var(--clr-white));
+    font-size: calc(var(--rem) * 1.8);
+    text-align: center;
+    letter-spacing: 0;
 }
