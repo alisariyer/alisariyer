@@ -16,6 +16,9 @@
 
     /* set default reference value to 1rem so 10px */
     --rem: 1rem; 
+
+    /* general padding size */
+    --padding: calc(var(--rem) * 1.2);
 }
 
 /**************************************************/

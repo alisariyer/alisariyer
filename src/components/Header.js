@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="main-header">
         <h1>ALI SARIYER</h1>
-        <Dots />
+        <Dots backgroundColor="#101013" />
     </header>
   );
 }

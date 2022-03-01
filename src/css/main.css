@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: calc(var(--rem) * 2);
+    padding-inline: var(--padding);
     height: calc(var(--rem) * 7.2);
     background-color: hsl( var(--clr-blue) / 1);
 }
@@ -36,4 +36,28 @@
     font-family: 'Raleway', sans-serif;
     font-size: calc(var(--rem) * 4);
     font-weight: 300;
+}
+
+.hero {
+    padding: var(--padding);
+    padding-top: calc(var(--rem) * 5);
+    line-height: 1.2;
+    max-width: 80%;
+}
+
+.hero-title {
+    font-size: calc(var(--rem) * 3.6);
+    font-weight: 300;
+    margin-bottom: calc(var(--rem) * 3);
+}
+
+.hero-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: calc(var(--rem) * 2);
+}
+
+.hero-content > .dot-container {
+    padding-top: calc(var(--rem) / 1.5);
 }
