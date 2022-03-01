@@ -4,15 +4,17 @@
 
 .dot-container {
     --rem: .9rem;
-    width: calc( var(--rem) * 4.5);
+    width: calc( var(--rem) * 4);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: calc(var(--rem) / 1.5);
+    /* gap is 8px */
+    gap: calc(var(--rem) * .8);
 }
 
 .dot {
     background-color: hsl( var(--clr-dark));
-    width: calc(var(--rem));
+    /* one dot is 8px */
+    width: calc(var(--rem) * .8);
     aspect-ratio: 1;
     border-radius: 50%;
     justify-self: center;
@@ -89,15 +91,106 @@
 
 .projects-title {
     font-size: calc(var(--rem) * 3.6);
-    margin-bottom: calc(var(--rem) * 3);
+    margin-bottom: calc(var(--rem) * 1.5);
 }
 
 .card {
     background-color: hsl( var(--clr-gray));
     border-radius: calc(var(--rem));
     padding: var(--padding);
+    overflow: hidden;
+    z-index: -9999;
+}
+
+.card > .dot-container {
+    --rem: 3rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%, 50%) rotate(45deg);
+    z-index: -5;
 }
 
 .card-img--container {
     height: calc(var(--rem) * 10);
+    position: relative;
+}
+
+.dots-triangle {
+    position: absolute;
+    top: calc(var(--rem));
+    right: calc(var(--rem));
+}
+
+.dots-triangle .dot:nth-child(4) {
+    background-color: transparent !important;
+}
+
+.dots-triangle .dot:nth-child(7) {
+    background-color: transparent !important;
+}
+
+.dots-triangle .dot:nth-child(8) {
+    background-color: transparent !important;
+}
+
+.card {
+    margin-bottom: var(--padding);
+    position: relative;
+}
+
+.card-img {
+    height: calc(var(--rem) * 6);
+    margin-bottom: var(--rem);
+}
+
+.card-content--container {
+    margin-bottom: var(--padding);
+}
+
+.card-title--container .dot-container {
+    --rem: .6rem;
+}
+
+.card-title--container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: calc(var(--rem));
+    margin-bottom: var(--padding);
+}
+
+.card-title {
+    font-size: calc(var(--rem) * 3.6);
+}
+
+.card-detail {
+    font-size: calc(var(--rem) * 1.8);
+    line-height: 1.2;
+    height: calc(var(--rem) * 10);
+}
+
+.card-btn--container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--padding);
+}
+
+.btn {
+    width: calc(var(--rem) * 12);
+    height: calc(var(--rem) * 4);
+    font-size: calc(var(--rem) * 1.8);
+    border: none;
+    border-radius: calc(var(--rem) /2);
+}
+
+.btn-github {
+    background-color: hsl( var(--clr-blue));
+    color: hsl( var(--clr-white));
+}
+
+.btn-live {
+    background-color: hsl( var(--clr-white));
+    color: hsl( var(--clr-dark));
 }

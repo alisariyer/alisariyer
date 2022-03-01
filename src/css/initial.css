@@ -18,7 +18,7 @@
     --rem: 1rem; 
 
     /* general padding size */
-    --padding: calc(var(--rem) * 1.2);
+    --padding: calc(var(--rem) * 1.6);
 }
 
 /**************************************************/
@@ -39,6 +39,7 @@ body,
 h1,
 h2,
 h3,
+h4,
 p,
 figure,
 picture {
