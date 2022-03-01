@@ -91,3 +91,13 @@
     font-size: calc(var(--rem) * 3.6);
     margin-bottom: calc(var(--rem) * 3);
 }
+
+.card {
+    background-color: hsl( var(--clr-gray));
+    border-radius: calc(var(--rem));
+    padding: var(--padding);
+}
+
+.card-img--container {
+    height: calc(var(--rem) * 10);
+}

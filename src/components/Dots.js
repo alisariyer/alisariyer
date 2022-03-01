@@ -17,5 +17,5 @@ export default function Dots(props) {
     <div key={index} className="dot" style={dotStyle}></div>
   ));
 
-  return <div className="dot-container" style={dotContainerStyle}>{dots}</div>;
+  return <div className={`dot-container ${props.isTriangle ? "dots-triangle" : ""}`} style={dotContainerStyle}>{dots}</div>;
 }

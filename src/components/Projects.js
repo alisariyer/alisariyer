@@ -8,7 +8,7 @@ export default function Projects() {
     return (
       <article className="card" key={project.id}>
         <div className="card-img--container">
-          <Dots backgroundColor="#356EFF" />
+          <Dots backgroundColor="#356EFF" isTriangle={true}/>
           <img className="card-img" src={project.imageUrl} alt={project.name} />
         </div>
         <div className="card-title--container">
