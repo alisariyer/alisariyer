@@ -1,0 +1,17 @@
+/**************************************************/
+/* Header                                         */
+/**************************************************/
+
+header {
+    height: calc(var(--rem) * 7.2);
+    background-color: hsl( var(--clr-blue) / 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(var(--rem) * 4);
+    font-weight: 300;
+}
