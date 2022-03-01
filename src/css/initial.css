@@ -60,6 +60,7 @@ body {
     background-color: hsl( var(--clr-dark) / 1);
     color: hsl( var(--clr-white) / 1);
     line-height: 1;
+    width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
 }

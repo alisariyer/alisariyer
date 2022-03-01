@@ -31,7 +31,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     padding-inline: var(--padding);
     height: calc(var(--rem) * 7.2);
     background-color: hsl( var(--clr-blue) / 1);
@@ -46,10 +45,11 @@
 /* hero styling */
 
 .hero {
+    position: relative;
     padding: var(--padding);
-    padding-top: calc(var(--rem) * 5);
+    padding-right: calc(var(--rem) * 8);
     line-height: 1.2;
-    max-width: 80%;
+    overflow-x: hidden;
 }
 
 .hero > * {
@@ -74,7 +74,7 @@
 
 .hero-bg-dots {
     position: absolute;
-    top: calc(var(--rem) * 14);
+    top: calc(var(--rem) * 9);
     right: 0;
     transform: translateX(50%);
 }
@@ -92,6 +92,7 @@
     flex-direction: column;
     gap: var(--padding);
     padding-inline: var(--padding);
+    margin-bottom: var(--padding);
 }
 
 .projects-title {
@@ -119,7 +120,7 @@
 
 .card-img--container {
     width: 100%;
-    height: calc(var(--rem) * 25);
+    height: calc(var(--rem) * 36);
     position: relative;
     overflow: hidden;
     border-radius: var(--rem);
