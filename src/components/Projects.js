@@ -1,7 +1,6 @@
 import React from "react";
 import Dots from "./Dots";
 import data from "../data.json";
-import image from "./a.png";
 
 export default function Projects() {
   const projects = data.projects;
@@ -12,8 +11,7 @@ export default function Projects() {
         <Dots backgroundColor="#ffffff36"/>
         <div className="card-img--container">
           <Dots backgroundColor="#356EFF" isTriangle={true}/>
-          <img className="card-img" src={image} alt={project.name} />
-          {/* <img className="card-img" src={`./images/${project.image}`} alt={project.name} /> */}
+          <img className="card-img" src={`./images/${project.image}`} alt={project.name} />
         </div>
         <div className="card-content--container">
           <div className="card-title--container">

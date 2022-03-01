@@ -2,14 +2,6 @@
     "projects": [
         {
             "id": 1,
-            "image": "mnotes-preview.png",
-            "name": "mnotes",
-            "detail": "A minimalist and modern note application made by using React.js.",
-            "githubUrl": "https://www.github.com/alisariyer/mnotes",
-            "liveUrl": "https://alisariyer.github.io/mnotes" 
-        },
-        {
-            "id": 2,
             "image": "space-travel-preview.png",
             "name": "space travel",
             "detail": "A space travel website created by using modern CSS desing system, responsive and fully accessible.",
@@ -17,7 +9,7 @@
             "liveUrl": "https://alisariyer.github.io/space-travel" 
         },
         {
-            "id": 3,
+            "id": 2,
             "image": "comments-app-preview.png",
             "name": "comments app",
             "detail": "An interactive and responsive CRUD comments app working on front-end side using localStorage of the browser.",
@@ -25,7 +17,7 @@
             "liveUrl": "https://alisariyer.github.io/comments-app" 
         },
         {
-            "id": 4,
+            "id": 3,
             "image": "mnotes-preview.png",
             "name": "mnotes",
             "detail": "A minimalist and modern note application made by using React.js.",
@@ -33,7 +25,7 @@
             "liveUrl": "https://alisariyer.github.io/mnotes" 
         },
         {
-            "id": 5,
+            "id": 4,
             "image": "tenzies.png",
             "name": "tenzies",
             "detail": "A funny and tiny dice game built by using React.js.",
@@ -41,7 +33,7 @@
             "liveUrl": "https://alisariyer.github.io/tenzies" 
         },
         {
-            "id": 6,
+            "id": 5,
             "image": "nft-preview-card-preview.png",
             "name": "nft preview card",
             "detail": "A HTML5 and CSS3 project has a modern interface",
