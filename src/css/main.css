@@ -95,11 +95,13 @@
 }
 
 .card {
+    position: relative;
     background-color: hsl( var(--clr-gray));
     border-radius: calc(var(--rem));
     padding: var(--padding);
     overflow: hidden;
     z-index: -9999;
+    margin-bottom: var(--padding);
 }
 
 .card > .dot-container {
@@ -112,8 +114,17 @@
 }
 
 .card-img--container {
-    height: calc(var(--rem) * 10);
+    width: 100%;
+    height: calc(var(--rem) * 25);
     position: relative;
+    overflow: hidden;
+    border-radius: var(--rem);
+    margin-bottom: var(--rem); 
+}
+
+.card-img {
+    height: calc(var(--rem) * 6);
+    margin-bottom: var(--rem);
 }
 
 .dots-triangle {
@@ -132,16 +143,6 @@
 
 .dots-triangle .dot:nth-child(8) {
     background-color: transparent !important;
-}
-
-.card {
-    margin-bottom: var(--padding);
-    position: relative;
-}
-
-.card-img {
-    height: calc(var(--rem) * 6);
-    margin-bottom: var(--rem);
 }
 
 .card-content--container {
