@@ -23,6 +23,8 @@
 /* Header                                         */
 /**************************************************/
 
+/* header styling */
+
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -39,6 +41,8 @@
     font-weight: 300;
 }
 
+/* hero styling */
+
 .hero {
     padding: var(--padding);
     padding-top: calc(var(--rem) * 5);
@@ -46,10 +50,13 @@
     max-width: 80%;
 }
 
+.hero > * {
+    margin-bottom: calc(var(--rem) * 3);
+}
+
 .hero-title {
     font-size: calc(var(--rem) * 3.6);
     font-weight: 300;
-    margin-bottom: calc(var(--rem) * 3);
 }
 
 .hero-content {
@@ -71,5 +78,15 @@
 }
 
 .hero-bg-dots > .dot-container {
-    --rem: 3rem;
+    --rem: 2.5rem;
+}
+
+/* project section styling */
+
+.projects-container {
+    padding-inline: var(--padding);
+}
+
+.projects-title {
+    font-size: calc(var(--rem) * 3.6);
 }

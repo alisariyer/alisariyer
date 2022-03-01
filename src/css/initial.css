@@ -94,3 +94,19 @@ select {
 /**************************************************/
 /* Utility classses                               */
 /**************************************************/
+
+.blue {
+    color: hsl( var(--clr-blue));
+}
+
+.extra-light {
+    font-weight: 200;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}

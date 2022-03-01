@@ -7,7 +7,7 @@ export default function Header() {
         <h1>ALI SARIYER</h1>
         <Dots backgroundColor="#101013" rotate={0}/>
         <div className="hero-bg-dots">
-          <Dots backgroundColor="#ffffff25" rotate={45} />
+          <Dots backgroundColor="#ffffff36" rotate={45} />
         </div>
     </header>
   );
