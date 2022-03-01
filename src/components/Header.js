@@ -1,11 +1,11 @@
 import React from "react";
+import Dots from "./Dots";
 
 export default function Header() {
   return (
-    <header>
-      <div className="container">
+    <header className="main-header">
         <h1>ALI SARIYER</h1>
-      </div>
+        <Dots />
     </header>
   );
 }

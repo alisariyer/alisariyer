@@ -1,16 +1,38 @@
 /**************************************************/
+/* Components                                     */
+/**************************************************/
+
+.dot-container {
+    --rem: .9rem;
+    width: calc( var(--rem) * 4.5);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: calc(var(--rem) / 1.5);
+}
+
+.dot {
+    background-color: hsl( var(--clr-dark));
+    width: calc(var(--rem));
+    aspect-ratio: 1;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+/**************************************************/
 /* Header                                         */
 /**************************************************/
 
-header {
-    height: calc(var(--rem) * 7.2);
-    background-color: hsl( var(--clr-blue) / 1);
+.main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-inline: calc(var(--rem) * 2);
+    height: calc(var(--rem) * 7.2);
+    background-color: hsl( var(--clr-blue) / 1);
 }
 
-header h1 {
+.main-header h1 {
     font-family: 'Raleway', sans-serif;
     font-size: calc(var(--rem) * 4);
     font-weight: 300;
