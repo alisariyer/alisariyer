@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="hero">
         <h2 className="hero-title">WELCOME TO MY GITHUB PAGE</h2>
         <div className="hero-content">
-          <Dots backgroundColor="#356EFF" />
+          <Dots backgroundColor="#356EFF" rotate={0}/>
           <p>I'm a front-end web developer, interested in CSS, JavaScript, and React.js</p>
         </div>
     </section>

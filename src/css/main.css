@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     padding-inline: var(--padding);
     height: calc(var(--rem) * 7.2);
     background-color: hsl( var(--clr-blue) / 1);
@@ -60,4 +61,15 @@
 
 .hero-content > .dot-container {
     padding-top: calc(var(--rem) / 1.5);
+}
+
+.hero-bg-dots {
+    position: absolute;
+    top: calc(var(--rem) * 14);
+    right: 0;
+    transform: translateX(50%);
+}
+
+.hero-bg-dots > .dot-container {
+    --rem: 3rem;
 }
