@@ -89,4 +89,5 @@
 
 .projects-title {
     font-size: calc(var(--rem) * 3.6);
+    margin-bottom: calc(var(--rem) * 3);
 }
