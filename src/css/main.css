@@ -180,6 +180,9 @@
 .card-title {
     font-size: calc(var(--rem) * 3.6);
     padding-bottom: calc(var(--rem) * .5);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-detail {

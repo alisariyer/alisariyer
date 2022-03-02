@@ -14,10 +14,6 @@
 
     }
 
-    .card-img--container {
-        height: calc(var(--rem) * 28);
-    }
-
     .card-detail {
         height: calc(var(--rem) * 18);
     }
@@ -35,4 +31,10 @@
 
     }
 
+}
+
+@media screen and (min-width: 800px) {
+    .card-detail {
+        height: calc(var(--rem) * 14);
+    }
 }
