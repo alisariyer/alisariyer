@@ -15,9 +15,11 @@
     font-size: 62.5%;
 
     /* set default reference value to 1rem so 10px */
+    /* use for border-radius, inset values, font-size etc. */
     --rem: 1rem; 
-
+    
     /* general padding size */
+    /* use only margin and padding purposes */
     --padding: calc(var(--rem) * 1.6);
 }
 
