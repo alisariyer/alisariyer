@@ -4,14 +4,17 @@ import data from "../data.json";
 
 export default function Projects() {
   const projects = data.projects;
-
+  
   const projectCards = projects.map(project => {
+    const cardStyle = {
+      backgroundImage: `url(./images/${project.image})`
+    }
     return (
       <article className="card" key={project.id}>
           <Dots backgroundColor="#ffffff36"/>
-          <div className="card-img--container">
+          <div className="card-img--container" style={cardStyle}>
             <Dots backgroundColor="#356EFF" isTriangle={true}/>
-            <img className="card-img" src={`./images/${project.image}`} alt={project.name} />
+            {/* <img src={`./images/${project.image}`} alt={project.name} /> */}
           </div>
           <div className="card-content--container">
             <div className="card-title--container">

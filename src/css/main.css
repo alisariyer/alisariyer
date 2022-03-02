@@ -139,7 +139,10 @@
     position: relative;
     overflow: hidden;
     border-radius: var(--rem);
-    margin-bottom: var(--padding); 
+    margin-bottom: var(--padding);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 
 .dots-triangle {
