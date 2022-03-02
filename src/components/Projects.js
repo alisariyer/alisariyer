@@ -14,7 +14,6 @@ export default function Projects() {
           <Dots backgroundColor="#ffffff36"/>
           <div className="card-img--container" style={cardStyle}>
             <Dots backgroundColor="#356EFF" isTriangle={true}/>
-            {/* <img src={`./images/${project.image}`} alt={project.name} /> */}
           </div>
           <div className="card-content--container">
             <div className="card-title--container">
