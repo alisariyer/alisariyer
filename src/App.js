@@ -11,7 +11,11 @@ export default function App() {
         <Hero />
         <Projects />
       </main>
-      <footer className="light"><small>Made by Ali Sariyer | Mars 2022</small></footer>
+      <footer className="light">
+        <div className="container">
+         <small>Made by Ali Sariyer | Mars 2022</small>
+        </div>
+      </footer>
     </>
   );
 }

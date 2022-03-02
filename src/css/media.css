@@ -1,0 +1,38 @@
+/**************************************************/
+/* Media queries                                  */
+/**************************************************/
+
+@media screen and (min-width: 460px) {
+    .projects-container .container > *:not(:first-child) {
+        flex-basis: 80%;
+        flex-grow: 0;
+    }
+
+    .projects-container .container > *:last-child {
+        flex-basis: 80%;
+        flex-grow: 0;
+
+    }
+
+    .card-img--container {
+        height: calc(var(--rem) * 28);
+    }
+
+    .card-detail {
+        height: calc(var(--rem) * 18);
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .projects-container .container > *:not(:first-child) {
+        flex-basis: 48%;
+        flex-grow: 0;
+    }
+
+    .projects-container .container > *:last-child {
+        flex-basis: 48%;
+        flex-grow: 0;
+
+    }
+
+}

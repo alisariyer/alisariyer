@@ -99,6 +99,13 @@ select {
 /* Utility classses                               */
 /**************************************************/
 
+.container {
+    padding-inline: var(--padding);
+    width: 100%;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
 .blue {
     color: hsl( var(--clr-blue));
 }

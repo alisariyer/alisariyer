@@ -28,12 +28,14 @@
 /* header styling */
 
 .main-header {
+    background-color: hsl( var(--clr-blue) / 1);
+}
+
+.main-header .container {
+    height: calc(var(--rem) * 7.2);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: var(--padding);
-    height: calc(var(--rem) * 7.2);
-    background-color: hsl( var(--clr-blue) / 1);
 }
 
 .main-header h1 {
@@ -43,19 +45,19 @@
 }
 
 /* hero styling */
-
 .hero {
-    /* to use a dot component as background */
-    position: relative;
-    padding: var(--padding);
-    padding-right: calc(var(--rem) * 8);
-    line-height: 1.2;
-
-    /* to hide half of dot component */
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
-.hero > * {
+.hero .container{
+    /* to use a dot component as background */
+    position: relative;
+    padding-block: calc(var(--padding) * 3);
+    padding-right: calc(var(--rem) * 8);
+    line-height: 1.2;
+}
+
+.hero .container > * {
     margin-bottom: calc(var(--rem) * 3);
 }
 
@@ -89,22 +91,25 @@
 
 /* project section styling */
 
-.projects-container {
+.projects-container .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    flex-direction: column;
     gap: var(--padding);
-    padding-inline: var(--padding);
 
     /* before main footer section needed */
     margin-bottom: var(--padding);
 }
 
+.projects-container .container > * {
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
 .projects-title {
     font-size: calc(var(--rem) * 3.6);
-    line-height: 0;
-    margin-bottom: calc(var(--padding) * 2);
+    margin-bottom: var(--padding);
 }
 
 .card {
@@ -221,11 +226,14 @@
 /* footer styling */
 
 footer {
+    background-color: hsl( var(--clr-blue));
+}
+
+footer .container {
     display: flex;
     justify-content: center;
     align-items: center;;
     height: calc(var(--rem) * 3);
-    background-color: hsl( var(--clr-blue));
     color:hsl( var(--clr-white));
     font-size: calc(var(--rem) * 1.8);
     text-align: center;
