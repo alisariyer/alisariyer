@@ -13,7 +13,7 @@ export default function App() {
       </main>
       <footer className="light">
         <div className="container">
-         <small>Made by Ali Sariyer | Mars 2022</small>
+         <small>Made by Ali Sariyer | March 2022</small>
         </div>
       </footer>
     </>
