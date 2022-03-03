@@ -1,5 +1,6 @@
 import React from "react";
 import Dots from "./Dots";
+import Eye from "./Eye";
 import data from "../data.json";
 
 export default function Projects() {
@@ -13,6 +14,7 @@ export default function Projects() {
       <article className="card" key={project.id}>
           <Dots backgroundColor="#ffffff36"/>
           <div className="card-img--container" style={cardStyle}>
+            <Eye />
             <Dots backgroundColor="#356EFF" isTriangle={true}/>
           </div>
           <div className="card-content--container">
