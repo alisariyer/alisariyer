@@ -2,7 +2,6 @@
 
 ## alisariyer
 
-### About Me
 I'm  **front-end web developer** and **IT Support Technician**. Like programming and designing so merge two things becomes web development, I'm really enjoying contuniually creating new projects and developping them. If you're interested contact me about CSS3, JavaScript, React.js projects.
 
 ### Programming languages I know
