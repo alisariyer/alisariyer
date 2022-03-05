@@ -13,7 +13,7 @@ export default function Hero() {
           <Dots backgroundColor="#356EFF" rotate={0} />
           <p className="extra-light">
             <span className="blue regular">Front-end Web Developer</span>,
-            Passionate about making apps with HTML5, CSS3, Bootstrap, JavaScript and React.js, 
+            Passionate about making apps with HTML5, CSS3, Bootstrap, JavaScript and <span className="blue regular">React.js</span>, 
             Collaborative to work on crazy projects. Some of my projects are below...
           </p>
         </div>
