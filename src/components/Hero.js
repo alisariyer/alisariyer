@@ -12,8 +12,8 @@ export default function Hero() {
         <div className="hero-content">
           <Dots backgroundColor="#356EFF" rotate={0} />
           <p className="extra-light">
-            I'm a <span className="blue regular">front-end web developer</span>,
-            making applications with HTML5, CSS3, Bootstrap, JavaScript and React.js.
+            <span className="blue regular">Front-end Web Developer</span>,
+            Passionate about making apps with HTML5, CSS3, Bootstrap, JavaScript and React.js, 
             Collaborative to work on crazy projects. Some of my projects are below...
           </p>
         </div>
