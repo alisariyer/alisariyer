@@ -40,7 +40,7 @@
 /* header styling */
 
 .main-header {
-    background-color: hsl( var(--clr-blue) / 1);
+    background-color: hsl( var(--clr-white) / 1);
 }
 
 .main-header .container {
@@ -53,7 +53,8 @@
 .main-header h1 {
     font-family: 'Raleway', sans-serif;
     font-size: calc(var(--rem) * 4);
-    font-weight: 300;
+    font-weight: 400;
+    color: hsl( var(--clr-blue));
 }
 
 /* hero styling */

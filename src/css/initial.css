@@ -4,7 +4,7 @@
 
 :root {
     --clr-blue: 223 100% 60%;
-    --clr-dark: 234 10% 7%;
+    --clr-dark: 214 11% 18%;
     --clr-gray: 227 6% 14%;
     --clr-white: 0 0% 100%;
 
@@ -59,7 +59,14 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: calc(var(--rem) * 2.4);
     letter-spacing: calc(var(--rem) * .1);
-    background-color: hsl( var(--clr-dark) / 1);
+    background: 
+        linear-gradient(to bottom, 
+                  hsl( var(--clr-dark)), 
+                  hsl( var(--clr-dark)) 25%,
+                hsl( var(--clr-white) / .3)
+                ), 
+                top / cover no-repeat fixed url(../../public/images/bg-hero.jpg);
+    backdrop-filter: blur(5px);
     color: hsl( var(--clr-white) / 1);
     line-height: 1;
     width: 100%;
