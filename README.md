@@ -12,6 +12,7 @@ I'm  **front-end web developer** and **IT Support Technician**. Like programming
 <img src="https://img.icons8.com/color/344/visual-studio--v1.png" alt="VSCode" align=left width=48 height=48>
 <img src="https://img.icons8.com/color/344/git.png" alt="Git" align=left width=48 height=48>
 <img src="https://img.icons8.com/nolan/344/github.png" alt="GitHub" align=left width=48 height=48>
+<br><br>
 
 ## Interests
 - 🏃 Learning
