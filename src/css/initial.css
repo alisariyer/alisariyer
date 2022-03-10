@@ -65,7 +65,7 @@ body {
                   hsl( var(--clr-dark)) 25%,
                 hsl( var(--clr-white) / .3)
                 ), 
-                top / cover no-repeat fixed url(../../public/images/bg-hero.jpg);
+                top / cover no-repeat fixed url(../../public/images/bg-hero-mobile.jpg);
     backdrop-filter: blur(5px);
     color: hsl( var(--clr-white) / 1);
     line-height: 1;
