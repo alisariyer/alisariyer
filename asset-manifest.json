@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/alisariyer/static/css/main.39184e89.css",
+    "main.css": "/alisariyer/static/css/main.648162b3.css",
     "main.js": "/alisariyer/static/js/main.437969b4.js",
-    "static/media/bg-hero-desktop.jpg": "/alisariyer/static/media/bg-hero-desktop.c9c06facdc8194936415.jpg",
     "static/media/bg-hero-mobile.jpg": "/alisariyer/static/media/bg-hero-mobile.f7922346e0b20dddc706.jpg",
     "index.html": "/alisariyer/index.html",
-    "main.39184e89.css.map": "/alisariyer/static/css/main.39184e89.css.map",
+    "main.648162b3.css.map": "/alisariyer/static/css/main.648162b3.css.map",
     "main.437969b4.js.map": "/alisariyer/static/js/main.437969b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.39184e89.css",
+    "static/css/main.648162b3.css",
     "static/js/main.437969b4.js"
   ]
 }
