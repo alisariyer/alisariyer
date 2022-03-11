@@ -34,7 +34,7 @@
         },
         {
             "id": 5,
-            "image": "advice-generator.png",
+            "image": "advice-generator-preview.png",
             "name": "advice generator api",
             "detail": "A CSS3, JavaScript and API project.",
             "githubUrl": "https://www.github.com/alisariyer/advice-generator",
