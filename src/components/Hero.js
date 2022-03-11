@@ -8,12 +8,11 @@ export default function Hero() {
         <div className="hero-bg-dots">
           <Dots backgroundColor="#ffffff36" rotate={45} />
         </div>
-        <h2 className="hero-title">WELCOME TO MY PORTFOLIO</h2>
+        <h2 className="hero-title">Hi, I'm Ali</h2>
         <div className="hero-content">
-          <Dots backgroundColor="#356EFF" rotate={0} />
-          <p className="extra-light">
-            Hi, I'm Ali<br />A <span className="blue regular">Front-end Web Developer</span>,
-            passionate about making apps with HTML5, CSS3, Bootstrap, JavaScript and <span className="blue regular">React.js</span>, 
+          <p className="fw-extra-light">
+            A <span className="blue fw-regular">Front-end Web Developer</span>,
+            passionate about making apps with HTML5, CSS3, Bootstrap, JavaScript and <span className="blue fw-regular">React.js</span>, 
             collaborative to work on crazy projects. Some of my projects are below...
           </p>
         </div>

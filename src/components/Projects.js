@@ -20,13 +20,13 @@ export default function Projects() {
           <div className="card-content--container">
             <div className="card-title--container">
             <Dots backgroundColor="#356EFF" />
-            <h4 className="card-title regular">{project.name}</h4>
+            <h4 className="card-title fw-regular">{project.name}</h4>
             </div>
-            <p className="card-detail extra-light">{project.detail}</p>
+            <p className="card-detail fw-extra-light">{project.detail}</p>
           </div>
           <div className="card-btn--container">
-            <a className="btn btn-github regular" type="button" href={project.githubUrl} target="_blank" rel="noopener noreferrer">Github Repo</a>
-            <a className="btn btn-live regular" type="button" href={project.liveUrl} target="_blank" rel="noopener noreferrer">Live Version</a>
+            <a className="btn btn-github fw-regular" type="button" href={project.githubUrl} target="_blank" rel="noopener noreferrer">Github Repo</a>
+            <a className="btn btn-live fw-regular" type="button" href={project.liveUrl} target="_blank" rel="noopener noreferrer">Live Version</a>
           </div>
       </article>
     )
@@ -34,7 +34,7 @@ export default function Projects() {
   return (
     <section className="projects-container">
       <div className="container">
-          <h3 className="projects-title light"><span className="blue">#</span>my-projects</h3>
+          <h3 className="projects-title fw-light"><span className="blue">#</span>my-projects</h3>
           {projectCards}
       </div>
     </section>

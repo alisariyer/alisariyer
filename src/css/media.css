@@ -13,7 +13,7 @@
         flex-grow: 0;
 
     }
-
+ 
     .card-detail {
         height: calc(var(--rem) * 18);
     }
@@ -28,6 +28,10 @@
                     hsl( var(--clr-white) / .3)
                     ), 
                     top / cover no-repeat fixed url(../../public/images/bg-hero-desktop.jpg);
+    }
+    
+    .hero-bg-dots {
+        display: none;
     }
     
     .projects-container .container > *:not(:first-child) {
