@@ -34,6 +34,14 @@
         },
         {
             "id": 5,
+            "image": "advice-generator.png",
+            "name": "advice generator api",
+            "detail": "A CSS3, JavaScript and API project.",
+            "githubUrl": "https://www.github.com/alisariyer/advice-generator",
+            "liveUrl": "https://alisariyer.github.io/advice-generator" 
+        },
+        {
+            "id": 6,
             "image": "nft-preview-card-preview.png",
             "name": "nft preview card",
             "detail": "A HTML5 and CSS3 project has a modern interface",
