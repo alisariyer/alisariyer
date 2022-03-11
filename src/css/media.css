@@ -20,16 +20,6 @@
 }
 
 @media screen and (min-width: 580px) {
-    body {
-        background: 
-            linear-gradient(to bottom, 
-                      hsl( var(--clr-dark)), 
-                      hsl( var(--clr-dark)) 25%,
-                    hsl( var(--clr-white) / .3)
-                    ), 
-                    top / cover no-repeat fixed url(../../public/images/bg-hero-desktop.jpg);
-    }
-    
     .hero-bg-dots {
         display: none;
     }

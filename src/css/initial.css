@@ -64,9 +64,7 @@ body {
                   hsl( var(--clr-dark) / .9), 
                   hsl( var(--clr-dark))
                 ), 
-                top / cover no-repeat fixed url(../../public/images/bg-hero-mobile.jpg);
-    /* background: top / cover no-repeat fixed url(../../public/images/bg-hero-mobile.jpg); */
-    /* backdrop-filter: blur(10px); */
+                center / cover no-repeat fixed url(../../public/images/bg-hero-mobile.jpg);
     color: hsl( var(--clr-white) / 1);
     line-height: 1;
     width: 100%;
