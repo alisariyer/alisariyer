@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/alisariyer/static/css/main.648162b3.css",
-    "main.js": "/alisariyer/static/js/main.437969b4.js",
+    "main.js": "/alisariyer/static/js/main.0ea6accc.js",
     "static/media/bg-hero-mobile.jpg": "/alisariyer/static/media/bg-hero-mobile.f7922346e0b20dddc706.jpg",
     "index.html": "/alisariyer/index.html",
     "main.648162b3.css.map": "/alisariyer/static/css/main.648162b3.css.map",
-    "main.437969b4.js.map": "/alisariyer/static/js/main.437969b4.js.map"
+    "main.0ea6accc.js.map": "/alisariyer/static/js/main.0ea6accc.js.map"
   },
   "entrypoints": [
     "static/css/main.648162b3.css",
-    "static/js/main.437969b4.js"
+    "static/js/main.0ea6accc.js"
   ]
 }
