@@ -1,6 +1,6 @@
 ![Profile Hero Image](https://raw.githubusercontent.com/alisariyer/alisariyer/main/public/images/alisariyer-hero.png)
 
-I'm  **front-end web developer** and **IT Support Technician**. Like programming and designing so merge two things becomes web development, I'm really enjoying contuniually creating new projects and developping them. If you're interested contact me about CSS3, JavaScript, React.js projects.
+I'm  **Front-end Web Developer** and **IT Support Technician**. Like programming and designing so merge two things becomes web development, I'm really enjoying contuniually creating new projects and developping them. If you're interested contact me about CSS3, SASS, JavaScript, React.js projects.
 
 ## Know and learning...
 <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="HTML5" align=left width=36 height=36>
