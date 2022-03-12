@@ -8,6 +8,9 @@ export default function Hero() {
         <div className="hero-bg-dots">
           <Dots backgroundColor="#ffffff36" rotate={45} />
         </div>
+        <div className="photo-container">
+          <img src="./images/me.png" alt="profile" />
+        </div>
         <h2 className="hero-title">Hi, I'm Ali</h2>
         <div className="hero-content">
           <p className="fw-extra-light">
@@ -16,6 +19,7 @@ export default function Hero() {
             collaborative to work on crazy projects. Some of my projects are below...
           </p>
         </div>
+        <button className="btn btn-blue fw-regular btn-projects">See projects</button>
       </div>
     </section>
   );

@@ -75,10 +75,12 @@
 .hero .container{
     /* to use a dot component as background */
     margin-top: calc(var(--rem) * 5);
+    height: 100vh;
     position: relative;
     padding-block: calc(var(--padding) * 3);
-    padding-right: calc(var(--rem) * 8);
+    padding-inline: calc(var(--rem) * 5);
     line-height: 1.2;
+    text-align: center;
 }
 
 .hero .container > * {
@@ -86,8 +88,17 @@
 }
 
 .hero-title {
-    font-size: calc(var(--rem) * 4);
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(var(--rem) * 5);
+    font-weight: 700;
+}
+
+.hero .photo-container {
+    width: 16rem;
+    height: 16rem;
+    margin-inline: auto;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .hero-content {
@@ -100,13 +111,17 @@
 /* here style only dot component found on hero bg */
 .hero-bg-dots {
     position: absolute;
-    top: calc(var(--rem) * 9);
+    top: 40%;
     right: 0;
     transform: translateX(50%);
 }
 
 .hero-bg-dots > .dot-container {
     --rem: 2.5rem;
+}
+
+.hero .btn-projects {
+    margin-inline: auto;
 }
 
 /* project section styling */
@@ -259,12 +274,12 @@
     transform: translateY(-5%);
 }
 
-.btn-github {
+.btn-blue {
     background-color: hsl( var(--clr-blue));
     color: hsl( var(--clr-white));
 }
 
-.btn-live {
+.btn-light {
     background-color: hsl( var(--clr-white));
     color: hsl( var(--clr-dark));
 }

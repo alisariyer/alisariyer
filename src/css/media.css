@@ -3,6 +3,7 @@
 /**************************************************/
 
 @media screen and (min-width: 460px) {
+
     .projects-container .container > *:not(:first-child) {
         flex-basis: 80%;
         flex-grow: 0;
@@ -20,6 +21,16 @@
 }
 
 @media screen and (min-width: 580px) {
+    .hero .container{
+        padding-right: calc(var(--rem) * 12);
+        text-align: left;
+    }
+
+    .hero .photo-container,
+    .hero .btn-projects {
+        margin-inline: 0;
+    }
+
     .hero-bg-dots {
         display: none;
     }
