@@ -21,7 +21,7 @@ export default function Hero() {
             collaborative to work on crazy projects. Some of my projects are below...
           </p>
         </div>
-        <a className="btn bg-linear fw-regular btn-projects" href="#projects" >See my projects</a>
+        <a className="btn bg-linear fw-bold btn-projects" href="#projects" >See my projects</a>
       </div>
     </section>
   );
