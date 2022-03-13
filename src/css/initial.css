@@ -6,6 +6,7 @@
     --clr-blue: 223 100% 60%;
     --clr-dark: 248 8% 17%;
     --clr-gray: 227 6% 14%;
+    --clr-light-gray: 227 6% 25%;
     --clr-white: 0 0% 100%;
     /* to remove highlight on mobile device when touching on buttons */
     --webkit-tap-highlight-color: transparent;
@@ -20,6 +21,8 @@
     /* general padding size */
     /* use only margin and padding purposes */
     --padding: calc(var(--rem) * 1.6);
+
+    scroll-behavior: smooth;
 }
 
 /**************************************************/
@@ -56,7 +59,7 @@ ol[role="list"] {
 
 body {
     font-family: 'Karla', sans-serif;
-    font-size: calc(var(--rem) * 2.4);
+    font-size: calc(var(--rem) * 2);
     letter-spacing: calc(var(--rem) * .1);
     background: hsl( var(--clr-dark));
     color: hsl( var(--clr-white) / 1);
@@ -64,6 +67,10 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
+}
+
+p {
+    line-height: 1.3;
 }
 
 img,

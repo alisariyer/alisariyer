@@ -32,7 +32,7 @@ export default function Projects() {
     )
   })
   return (
-    <section className="projects-container">
+    <section id="projects" className="projects-container">
       <div className="container">
           <h3 className="projects-title fw-light"><span className="blue">#</span>my-projects</h3>
           {projectCards}

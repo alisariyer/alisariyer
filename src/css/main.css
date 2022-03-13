@@ -94,8 +94,8 @@
 }
 
 .hero .photo-container {
-    width: 16rem;
-    height: 16rem;
+    width: 18rem;
+    height: 18rem;
     margin-inline: auto;
     border-radius: 50%;
     overflow: hidden;
@@ -121,12 +121,16 @@
 }
 
 .hero .btn-projects {
+    width: calc(var(--rem) * 16);
+    padding-inline: 1rem;
     margin-inline: auto;
+    text-transform: uppercase;
 }
 
 /* project section styling */
 
 .projects-container .container {
+    padding-top: 6rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
