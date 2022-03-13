@@ -116,6 +116,7 @@
   position: absolute;
   inset: 0;
   background: linear-gradient(90deg, var(--clr-linear));
+  z-index: -9999;
 }
 
 .hero-content {
