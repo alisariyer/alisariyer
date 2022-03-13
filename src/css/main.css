@@ -59,7 +59,6 @@
   font-family: "Raleway", sans-serif;
   font-size: calc(var(--rem) * 2.2);
   font-weight: 700;
-  color: hsl(var(--clr-l-gray));
 }
 
 .main-header .brand-link:hover {

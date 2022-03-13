@@ -16,8 +16,8 @@ export default function Hero() {
         <h2 className="hero-title">Hi, I'm Ali</h2>
         <div className="hero-content">
           <p className="fw-extra-light">
-            A <span className="clr-blue fw-regular">Front-end Web Developer</span>,
-            passionate about making apps with HTML5, CSS3, Bootstrap, JavaScript and <span className="clr-blue fw-regular">React.js</span>, 
+            A <span className="mask-linear fw-regular">Front-end Web Developer</span>,
+            passionate about making apps with HTML5, CSS3, Bootstrap, JavaScript and <span className="mask-linear fw-regular">React.js</span>, 
             collaborative to work on crazy projects. Some of my projects are below...
           </p>
         </div>

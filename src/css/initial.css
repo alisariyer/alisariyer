@@ -128,6 +128,13 @@ select {
     color: hsl( var(--clr-gray)) !important;
 }
 
+.mask-linear {
+    background: -webkit-linear-gradient(360deg, var(--clr-linear));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .bg-white {
     background-color: hsl( var(--clr-white)) !important;
 }
