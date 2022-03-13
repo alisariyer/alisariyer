@@ -25,7 +25,7 @@ export default function Projects() {
             <p className="card-detail fw-extra-light">{project.detail}</p>
           </div>
           <div className="card-btn--container">
-            <a className="btn bg-blue clr-white fw-regular" type="button" href={project.githubUrl} target="_blank" rel="noopener noreferrer">Github Repo</a>
+            <a className="btn bg-linear clr-white fw-regular" type="button" href={project.githubUrl} target="_blank" rel="noopener noreferrer">Github Repo</a>
             <a className="btn bg-white clr-gray fw-regular" type="button" href={project.liveUrl} target="_blank" rel="noopener noreferrer">Live Version</a>
           </div>
       </article>
