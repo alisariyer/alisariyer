@@ -3,10 +3,10 @@
 /**************************************************/
 
 :root {
-    --clr-blue: 223 100% 60%;
-    --clr-dark: 248 8% 17%;
-    --clr-gray: 227 6% 14%;
-    --clr-light-gray: 227 6% 25%;
+    --clr-blue: 212 100% 50%;
+    --clr-l-gray: 216 7% 20%;
+    --clr-gray: 216 7% 14%;
+    --clr-vl-gray: 216 7% 28%;
     --clr-white: 0 0% 100%;
     /* color: #29282f; */
     /* to remove highlight on mobile device when touching on buttons */
@@ -118,8 +118,20 @@ select {
     margin-inline: auto;
 }
 
-.blue {
-    color: hsl( var(--clr-blue));
+.clr-blue {
+    color: hsl( var(--clr-blue)) !important;
+}
+
+.bg-blue {
+    background-color: hsl( var(--clr-blue)) !important;
+}
+
+.bg-gray {
+    background-color: hsl(var(--clr-gray)) !important;
+}
+
+.bg-vl-gray {
+    background-color: hsl(var(--clr-vl-gray)) !important;
 }
 
 .fw-extra-light {

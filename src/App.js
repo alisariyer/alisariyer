@@ -15,7 +15,7 @@ export default function App() {
     <>
       <div id="top"></div>
       <Menu isMenuOpen={isMenuOpen}/>
-      <Header handleMenu={handleMenu} isMenuOpen={isMenuOpen}/>
+      <Header handleMenu={handleMenu} isMenuOpen={isMenuOpen} className="bg-gray"/>
       <main>
         <Hero />
         <Projects />

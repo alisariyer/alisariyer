@@ -12,7 +12,7 @@
 }
 
 .dot {
-  background-color: hsl(var(--clr-dark));
+  background-color: hsl(var(--clr-l-gray));
   /* one dot is 8px */
   width: calc(var(--rem) * 0.8);
   aspect-ratio: 1;
@@ -59,7 +59,7 @@
   font-family: "Raleway", sans-serif;
   font-size: calc(var(--rem) * 2.2);
   font-weight: 700;
-  color: hsl(var(--clr-dark));
+  color: hsl(var(--clr-l-gray));
 }
 
 .main-header .brand-link:hover {
@@ -69,6 +69,10 @@
 .main-header .dot-container {
   --rem: 0.6rem;
   cursor: pointer;
+}
+
+.main-header .dot-container:hover .dot {
+    background-color: hsl(var(--clr-blue)) !important;
 }
 
 /* hero styling */
@@ -115,9 +119,9 @@
 /* here style only dot component found on hero bg */
 .hero-bg-dots {
   position: absolute;
-  top: 40%;
+  top: 50%;
   right: 0;
-  transform: translateX(50%);
+  transform: translate(50%, -50%);
 }
 
 .hero-bg-dots > .dot-container {
@@ -158,7 +162,7 @@
 
 .card {
   position: relative;
-  background-color: hsl(var(--clr-dark));
+  background-color: hsl(var(--clr-l-gray));
   border-radius: calc(var(--rem));
   padding: var(--padding);
   overflow: hidden;
@@ -202,7 +206,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsl(var(--clr-dark) / 0.7);
+  background-color: hsl(var(--clr-l-gray) / 0.7);
   z-index: 1;
 }
 
@@ -299,7 +303,7 @@
 
 .btn-light {
   background-color: hsl(var(--clr-white));
-  color: hsl(var(--clr-dark));
+  color: hsl(var(--clr-l-gray));
 }
 
 /* footer styling */
@@ -328,7 +332,7 @@ footer .container {
   background-color: hsl(var(--clr-white));
   z-index: 9999;
   border-radius: 0 1rem 1rem 0;
-  color: hsl(var(--clr-dark));
+  color: hsl(var(--clr-l-gray));
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

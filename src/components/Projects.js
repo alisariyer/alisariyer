@@ -12,14 +12,14 @@ export default function Projects() {
     }
     return (
       <article className="card" key={project.id}>
-          <Dots backgroundColor="#ffffff36"/>
+          <Dots className="bg-vl-gray"/>
           <div className="card-img--container" style={cardStyle}>
             <Eye />
-            <Dots backgroundColor="#356EFF" isTriangle={true}/>
+            <Dots className="bg-blue" isTriangle={true}/>
           </div>
           <div className="card-content--container">
             <div className="card-title--container">
-            <Dots backgroundColor="#356EFF" />
+            <Dots className="bg-blue" />
             <h4 className="card-title fw-regular">{project.name}</h4>
             </div>
             <p className="card-detail fw-extra-light">{project.detail}</p>
