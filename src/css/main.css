@@ -96,7 +96,7 @@
 
 .hero-title {
   font-family: "Expletus Sans", sans-serif;
-  font-size: calc(var(--rem) * 6);
+  font-size: calc(var(--rem) * 5);
   font-weight: 500;
 }
 
@@ -364,4 +364,9 @@ footer .container {
 
 .bi:hover {
     color: hsl(var(--clr-white));
+}
+
+.bi-boxes {
+  font-size: 2.4rem;
+  color: hsl( var(--clr-gray));
 }
