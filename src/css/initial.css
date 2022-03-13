@@ -8,7 +8,9 @@
     --clr-gray: 216 7% 14%;
     --clr-vl-gray: 216 7% 28%;
     --clr-white: 0 0% 100%;
-    /* color: #29282f; */
+    --clr-violet: 273, 100%, 41%;
+    --clr-linear: hsl( var(--clr-blue)), hsl( var(--clr-violet));
+    /* color: hsl(273, 100%, 41%); */
     /* to remove highlight on mobile device when touching on buttons */
     --webkit-tap-highlight-color: transparent;
 
@@ -122,6 +124,14 @@ select {
     color: hsl( var(--clr-blue)) !important;
 }
 
+.clr-gray {
+    color: hsl( var(--clr-gray)) !important;
+}
+
+.bg-white {
+    background-color: hsl( var(--clr-white)) !important;
+}
+
 .bg-blue {
     background-color: hsl( var(--clr-blue)) !important;
 }
@@ -132,6 +142,10 @@ select {
 
 .bg-vl-gray {
     background-color: hsl(var(--clr-vl-gray)) !important;
+}
+
+.bg-linear {
+  background: linear-gradient(90deg, var(--clr-linear));
 }
 
 .fw-extra-light {
