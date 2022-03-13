@@ -102,21 +102,22 @@
 }
 
 .hero .photo-container {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 18rem;
   height: 18rem;
-  padding: 2px;
   margin-inline: auto;
   border-radius: 50%;
-  overflow: hidden;
+  background: linear-gradient(90deg, var(--clr-linear));
 }
 
-.hero .photo-container::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, var(--clr-linear));
-  z-index: -9999;
+.hero .photo-frame {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: hsl( var(--clr-gray));
 }
 
 .hero-content {
@@ -356,7 +357,7 @@ footer .container {
 
 .bi {
   font-size: 4rem;
-  color: hsl( var(--clr-dark));
+  color: hsl( var(--clr-gray));
   cursor: pointer;
   transition: color 250ms ease-in-out;
 }

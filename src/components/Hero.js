@@ -9,7 +9,9 @@ export default function Hero() {
           <Dots className="bg-vl-gray" rotate={45} />
         </div>
         <div className="photo-container">
+          <div className="photo-frame">
           <img src="./images/me.png" alt="profile" />
+          </div>
         </div>
         <h2 className="hero-title">Hi, I'm Ali</h2>
         <div className="hero-content">
