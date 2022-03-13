@@ -6,7 +6,7 @@ export default function Header() {
     <header className="main-header">
       <div className="container">
         <h1>ALI SARIYER</h1>
-        <Dots backgroundColor="#fff" rotate={0} />
+        <Dots backgroundColor="#29282f" rotate={0} />
       </div>
     </header>
   );

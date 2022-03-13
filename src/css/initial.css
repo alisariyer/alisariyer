@@ -8,6 +8,7 @@
     --clr-gray: 227 6% 14%;
     --clr-light-gray: 227 6% 25%;
     --clr-white: 0 0% 100%;
+    /* color: #29282f; */
     /* to remove highlight on mobile device when touching on buttons */
     --webkit-tap-highlight-color: transparent;
 
@@ -61,7 +62,7 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: calc(var(--rem) * 2);
     letter-spacing: calc(var(--rem) * .1);
-    background: hsl( var(--clr-dark));
+    background: hsl( var(--clr-gray));
     color: hsl( var(--clr-white) / 1);
     line-height: 1;
     width: 100%;
