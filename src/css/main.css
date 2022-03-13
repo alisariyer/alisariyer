@@ -95,8 +95,8 @@
 }
 
 .hero-title {
-  font-family: "Raleway", sans-serif;
-  font-size: calc(var(--rem) * 5);
+  font-family: "Expletus Sans", sans-serif;
+  font-size: calc(var(--rem) * 6);
   font-weight: 500;
 }
 
@@ -112,8 +112,8 @@
 }
 
 .hero .photo-frame {
-  width: 17rem;
-  height: 17rem;
+  width: 17.5rem;
+  height: 17.5rem;
   border-radius: 50%;
   overflow: hidden;
   background-color: hsl( var(--clr-gray));
@@ -123,6 +123,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  font-size: calc(var(--rem) * 2.2);
   gap: var(--padding);
 }
 

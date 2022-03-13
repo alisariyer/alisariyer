@@ -13,7 +13,7 @@ export default function Hero() {
           <img src="./images/me.png" alt="profile" />
           </div>
         </div>
-        <h2 className="hero-title">Hi, I'm Ali</h2>
+        <h2 className="hero-title">Hi, I'm <span className="mask-linear">Ali</span></h2>
         <div className="hero-content">
           <p className="fw-extra-light">
             A <span className="mask-linear fw-regular">Front-end Web Developer</span>,
