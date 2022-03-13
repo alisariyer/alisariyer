@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import Menu from "./components/Menu";
 
 export default function App() {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+
   return (
     <>
+      {isMenuOpen && <Menu />}
       <Header />
       <main>
         <Hero />
