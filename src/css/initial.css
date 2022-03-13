@@ -58,6 +58,11 @@ ol[role="list"] {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     font-family: 'Karla', sans-serif;
     font-size: calc(var(--rem) * 2);

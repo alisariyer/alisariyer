@@ -13,8 +13,9 @@ export default function App() {
 
   return (
     <>
+      <div id="top"></div>
       <Menu isMenuOpen={isMenuOpen}/>
-      <Header handleMenu={handleMenu}/>
+      <Header handleMenu={handleMenu} isMenuOpen={isMenuOpen}/>
       <main>
         <Hero />
         <Projects />

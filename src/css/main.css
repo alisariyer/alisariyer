@@ -62,6 +62,10 @@
   color: hsl(var(--clr-dark));
 }
 
+.main-header .brand-link:hover {
+    color: hsl(var(--clr-blue));
+}
+
 .main-header .dot-container {
   --rem: 0.6rem;
   cursor: pointer;
@@ -209,16 +213,25 @@
   z-index: 2;
 }
 
+.dot {
+  transition: background-color 0.5s ease-in-out;
+}
+
 /* make 4th, 7th, and 8th dots invisible in dot component */
-.dots-triangle .dot:nth-child(4) {
-  background-color: transparent !important;
-}
-
-.dots-triangle .dot:nth-child(7) {
-  background-color: transparent !important;
-}
-
+.dots-triangle .dot:nth-child(4),
+.dots-triangle .dot:nth-child(7),
 .dots-triangle .dot:nth-child(8) {
+  background-color: transparent !important;
+}
+
+.dot-cross .dot {
+  background-color: hsl(var(--clr-blue)) !important;
+}
+
+.dot-cross .dot:nth-child(2),
+.dot-cross .dot:nth-child(4),
+.dot-cross .dot:nth-child(6),
+.dot-cross .dot:nth-child(8) {
   background-color: transparent !important;
 }
 
@@ -319,11 +332,11 @@ footer .container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  transition: transform .5s ease-in-out;
+  transition: transform 250ms ease-in-out;
 }
 
 .show-menu {
-    transform: translateY(-50%) translateX(100%);
+  transform: translateY(-50%) translateX(100%);
 }
 
 .social-media-list {
@@ -338,4 +351,10 @@ footer .container {
 
 .bi {
   font-size: 4rem;
+  cursor: pointer;
+  transition: color 250ms ease-in-out;
+}
+
+.bi:hover {
+    color: hsl(var(--clr-blue));
 }

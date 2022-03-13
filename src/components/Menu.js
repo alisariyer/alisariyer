@@ -5,10 +5,10 @@ export default function Menu(props) {
   return (
     <div className={`menu-container ${props.isMenuOpen ? 'show-menu': ''}`}>
       <ul className="social-media-list">
-        <li><i className="bi bi-github"></i></li>
-        <li><i className="bi bi-linkedin"></i></li>
-        <li><i className="bi bi-twitter"></i></li>
-        <li><i className="bi bi-envelope-fill"></i></li>
+        <li><a href="https://github.com/alisariyer" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a></li>
+        <li><a href="https://linkedin.com/in/alisariyer" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i></a></li>
+        <li><a href="https://twitter.com/sariyer_ali" target="_blank" rel="noreferrer"><i className="bi bi-twitter"></i></a></li>
+        <li><a href="mailto:mail@alisariyer.com" target="_blank" rel="noreferrer"><i className="bi bi-envelope-fill"></i></a></li>
       </ul>
     </div>
   );
