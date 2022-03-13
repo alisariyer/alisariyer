@@ -7,12 +7,14 @@ import Menu from "./components/Menu";
 export default function App() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const handleMenu = () => {
+    setIsMenuOpen(prevState => !prevState);
+  }
 
   return (
     <>
-      {isMenuOpen && <Menu />}
-      <Header />
+      <Menu isMenuOpen={isMenuOpen}/>
+      <Header handleMenu={handleMenu}/>
       <main>
         <Hero />
         <Projects />

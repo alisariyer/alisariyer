@@ -19,7 +19,7 @@ export default function Hero() {
             collaborative to work on crazy projects. Some of my projects are below...
           </p>
         </div>
-        <a className="btn btn-blue fw-regular btn-projects" href="#projects" >See projects</a>
+        <a className="btn btn-blue fw-regular btn-projects" href="#projects" >See my projects</a>
       </div>
     </section>
   );
