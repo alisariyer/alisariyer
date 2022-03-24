@@ -82,7 +82,6 @@
 .hero .container {
   /* to use a dot component as background */
   margin-top: calc(var(--rem) * 5);
-  height: 100vh;
   position: relative;
   padding-block: calc(var(--spacing) * 3);
   padding-inline: calc(var(--rem) * 5);
@@ -151,7 +150,6 @@
 /* project section styling */
 
 .projects-container .container {
-  padding-top: 6rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -175,8 +173,7 @@
 .card {
   position: relative;
   background-color: hsl(var(--clr-l-gray));
-  border-radius: calc(var(--rem));
-  padding: var(--spacing);
+  border-radius: calc(var(--rem) * 1.5);
   overflow: hidden;
   /* use z-index: 0 for parent element, -1 for dot component */
   z-index: 0;
@@ -199,7 +196,6 @@
   position: relative;
   overflow: hidden;
   border-radius: var(--rem);
-  margin-bottom: var(--spacing);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -224,8 +220,8 @@
 
 .dots-triangle {
   position: absolute;
-  top: calc(var(--rem));
-  right: calc(var(--rem));
+  top: calc(var(--rem) * 2);
+  right: calc(var(--rem) * 2);
   z-index: 2;
 }
 
@@ -249,6 +245,10 @@
 .dot-cross .dot:nth-child(6),
 .dot-cross .dot:nth-child(8) {
   background-color: transparent !important;
+}
+
+.card-body {
+    padding: var(--spacing);
 }
 
 .card-content--container {

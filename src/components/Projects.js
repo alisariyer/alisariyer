@@ -17,6 +17,7 @@ export default function Projects() {
             <Eye />
             <Dots className="bg-blue" isTriangle={true}/>
           </div>
+          <div className="card-body">
           <div className="card-content--container">
             <div className="card-title--container">
             <Dots className="bg-blue" />
@@ -27,6 +28,7 @@ export default function Projects() {
           <div className="card-btn--container">
             <a className="btn bg-linear clr-white fw-regular" type="button" href={project.githubUrl} target="_blank" rel="noopener noreferrer">Github Repo</a>
             <a className="btn bg-white clr-gray fw-regular" type="button" href={project.liveUrl} target="_blank" rel="noopener noreferrer">Live Version</a>
+          </div>
           </div>
       </article>
     )
