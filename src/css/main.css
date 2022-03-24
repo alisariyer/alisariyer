@@ -195,7 +195,6 @@
   /* to use a triangle dot component as absolute */
   position: relative;
   overflow: hidden;
-  border-radius: var(--rem);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
