@@ -51,7 +51,7 @@
     }
 
     .card-img--container {
-        height: calc(var(--rem) * 32);
+        height: calc(var(--rem) * 36);
     }
 
 }

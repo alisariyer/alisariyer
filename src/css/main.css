@@ -191,7 +191,7 @@
 
 .card-img--container {
   width: 100%;
-  height: calc(var(--rem) * 32);
+  height: calc(var(--rem) * 36);
   /* to use a triangle dot component as absolute */
   position: relative;
   overflow: hidden;
