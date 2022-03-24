@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 460px) {
 
-    .projects-container .container > *:not(:first-child) {
+    .projects-container .container > *{
         flex-basis: 80%;
         flex-grow: 0;
     }
@@ -39,7 +39,7 @@
         display: none;
     }
     
-    .projects-container .container > *:not(:first-child) {
+    .projects-container .container > * {
         flex-basis: 48%;
         flex-grow: 0;
     }

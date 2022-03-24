@@ -103,16 +103,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 18rem;
-  height: 18rem;
+  width: 24rem;
+  height: 24rem;
   margin-inline: auto;
   border-radius: 50%;
   background: linear-gradient(90deg, var(--clr-linear));
 }
 
 .hero .photo-frame {
-  width: 17.5rem;
-  height: 17.5rem;
+  width: 23.5rem;
+  height: 23.5rem;
   border-radius: 50%;
   overflow: hidden;
   background-color: hsl( var(--clr-gray));
@@ -163,11 +163,6 @@
 .projects-container .container > * {
   flex-basis: 100%;
   flex-grow: 1;
-}
-
-.projects-title {
-  font-size: calc(var(--rem) * 3.6);
-  margin-bottom: var(--spacing);
 }
 
 .card {
