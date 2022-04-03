@@ -1,6 +1,14 @@
 {
     "projects": [
         {
+            "id": 0,
+            "image": "todo-app.png",
+            "name": "todo app",
+            "detail": "A Todo App responsive, CRxD, PWA so installable, has add, remove, filter, drag & drop feature...",
+            "githubUrl": "https://www.github.com/alisariyer/todo-app",
+            "liveUrl": "https://alisariyer.github.io/todo-app" 
+        },
+        {
             "id": 1,
             "image": "space-travel-preview.png",
             "name": "space travel",
