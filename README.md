@@ -20,9 +20,3 @@ A **Front-end Web Developer**
 - 🔍 Searching
 - ✍️ Coding
 - 🥇 **React.js**
-
-## Here
-- 🍒 [Portfolio](https://alisariyer.github.io/alisariyer)
-- 💙 [Linkedin Profile](https://linkedin.com/in/alisariyer)
-- 🐦 [Twitter Profile](https://twitter.com/sariyer_ali)
-- 📫 Contact me at mail@alisariyer.com
