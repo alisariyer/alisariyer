@@ -2,7 +2,7 @@
 
 A **Front-end Web Developer**
 
-## Know and learning...
+## Like and use
 <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="HTML5" align=left width=36 height=36>
 <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png" alt="CSS3" align=left width=36 height=36>
 <img src="https://img.icons8.com/color/344/bootstrap.png" alt="Bootstrap" align=left width=36 height=36>
@@ -19,4 +19,4 @@ A **Front-end Web Developer**
 - 🏃 Learning
 - 🔍 Searching
 - ✍️ Coding
-- 🥇 **React.js**
+- 🥇 Web Development
