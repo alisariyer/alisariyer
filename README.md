@@ -13,11 +13,11 @@
 
 - 👨‍💻 All of my projects are available at [my github page](my github page)
 
-- 📝 I regularly write articles on [https://www.alisariyer.com](https://www.alisariyer.com)
+- 📝 I regularly write articles on ...
 
 - 💬 Ask me about **react**
 
-- 📫 How to reach me **later@later.com**
+- 📫 How to reach me ...
 
 - 📄 Know about my experiences [https://linkedin.com/in/alisariyer](https://linkedin.com/in/alisariyer)
 
