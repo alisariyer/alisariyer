@@ -1,4 +1,4 @@
-
+![alisariyer](./public/images/alisariyer-hero.png)
 
 # Hi 👋, I'm Ali Sariyer
 ## A passionate frontend developer from the Netherlands
