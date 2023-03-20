@@ -1,22 +1,20 @@
-![Profile Hero Image](https://raw.githubusercontent.com/alisariyer/alisariyer/main/public/images/alisariyer-hero.png)
+# Hi there! 👋
 
-A **Front-end Web Developer**
+I'm Ali Sariyer, a Front-end Web Developer based in the Netherlands. I'm passionate about programming, build web applications.
 
-## Like and use
-<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png" alt="HTML5" align=left width=36 height=36>
-<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png" alt="CSS3" align=left width=36 height=36>
-<img src="https://img.icons8.com/color/344/bootstrap.png" alt="Bootstrap" align=left width=36 height=36>
-<img src="https://img.icons8.com/color/344/sass.png" alt="Sass" align=left width=36 height=36>
-<img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-256.png" alt="JavaScript" align=left width=36 height=36> 
-<img src="https://img.icons8.com/cute-clipart/344/react-native.png" alt="React.js" align=left width=36 height=36> 
-<img src="https://img.icons8.com/color/344/python--v1.png" alt="Python" align=left width=36 height=36>
-<img src="https://img.icons8.com/color/344/visual-studio--v1.png" alt="VSCode" align=left width=36 height=36>
-<img src="https://img.icons8.com/color/344/git.png" alt="Git" align=left width=36 height=36>
-<img src="https://img.icons8.com/nolan/344/github.png" alt="GitHub" align=left width=36 height=36>
-<br><br><br>
+- 🌱 I’m currently learning Node.js, Express.js.
+- 💬 Ask me about Responsive Design, HTML & CSS, JavaScript, OOP.
+- 📫 How to reach me: by my linkedin account.
 
-## Interested in
-- 🏃 Learning
-- 🔍 Searching
-- ✍️ Coding
-- 🥇 Web Development
+## My GitHub Stats
+
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=alisariyer&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+## My Top Languages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alisariyer&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+## My Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
