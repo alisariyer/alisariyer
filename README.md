@@ -1,7 +1,7 @@
 ![alisariyer](./public/images/alisariyer-hero.png)
 
 # Hi 👋, I'm Ali Sariyer
-## A passionate frontend developer from the Netherlands
+## A passionate full-stack developer from the Netherlands 🌊
 
 ![alisariyer](https://komarev.com/ghpvc/?username=alisariyer&label=Profile%20views&color=0e75b6&style=flat)
 
@@ -9,15 +9,15 @@
 
 [![sariyer_ali](https://img.shields.io/twitter/follow/sariyer_ali?logo=twitter&style=for-the-badge)](https://twitter.com/sariyer_ali)
 
-- 🔭 I’m currently working on [A movie theater web application](https://github.com/Amberbm/WebsiteAvatar)
+- 🖱️ I’m currently working on [A movie theater web application](https://github.com/Amberbm/WebsiteAvatar)
 
-- 🌱 I’m currently learning **Node.js and Express.js**
+- 📘 I’m currently learning **Node.js, Express.js, Mongo, full stack app design**
 
 - 👨‍💻 All of my projects are available at [my github page](my github page)
 
 - 📝 I regularly write articles on ...
 
-- 💬 Ask me about **react**
+- 💬 Ask me about **Front-end development**
 
 - 📫 How to reach me ...
 
