@@ -9,17 +9,15 @@
 
 [![sariyer_ali](https://img.shields.io/twitter/follow/sariyer_ali?logo=twitter&style=for-the-badge)](https://twitter.com/sariyer_ali)
 
-- 🖱️ I’m currently working on [Campground Full-Stack Project](https://github.com/alisariyer/campground) & [A movie theater web application](https://github.com/Amberbm/WebsiteAvatar)
+- 🖱️ I’m currently working on [A full-stack quiz application](https://github.com/alisariyer/quizer) & [Campground Full-Stack Project](https://github.com/alisariyer/campground)
 
-- 📘 I’m currently learning **Node.js, Express.js, Mongo, full stack app design**
+- 📘 I’m currently learning **Node.js, Express.js, MongoDB, full stack app design**
 
-- 👨‍💻 All of my projects are available at [my github page](my github page)
-
-- 📝 I regularly write articles on ...
+- 👨‍💻 All of my projects are available at [my github page](https://github.com/alisariyer)
 
 - 💬 Ask me about **Front-end development**
 
-- 📫 How to reach me ...
+- 📫 Reach me from linkedin page
 
 - 📄 Know about my experiences [https://linkedin.com/in/alisariyer](https://linkedin.com/in/alisariyer)
 
