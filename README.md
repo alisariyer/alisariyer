@@ -1,7 +1,7 @@
 ![alisariyer](./public/images/alisariyer-hero.png)
 
 # Hi 👋, I'm Ali Sariyer
-## A passionate full-stack developer from the Netherlands 🌊
+## A passionate web application developer from the Netherlands 🌊
 
 ![alisariyer](https://komarev.com/ghpvc/?username=alisariyer&label=Profile%20views&color=0e75b6&style=flat)
 
