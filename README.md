@@ -11,11 +11,11 @@
 
 - 🖱️ I’m currently working on [A full-stack quiz application](https://github.com/alisariyer/quizer) & [Campground Full-Stack Project](https://github.com/alisariyer/campground)
 
-- 📘 I’m currently learning **Node.js, Express.js, MongoDB, full stack app design**
+- 📘 I’m currently learning **Node.js, Express.js, MongoDB, Jest, Web Application Design**
 
 - 👨‍💻 All of my projects are available at [my github page](https://github.com/alisariyer)
 
-- 💬 Ask me about **Front-end development**
+- 💬 Ask me about **Web Application Development**
 
 - 📫 Reach me from linkedin page
 
